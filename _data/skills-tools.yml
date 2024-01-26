@@ -1,0 +1,23 @@
+- name: GitLab
+  weight: 5
+
+- name: Git
+  weight: 5
+
+- name: Bitbucket
+  weight: 5
+
+- name: SQL
+  weight: 5
+
+- name: Jira
+  weight: 4
+
+- name: Bash
+  weight: 4
+
+- name: Jenkins
+  weight: 3
+
+- name: Docker
+  weight: 3

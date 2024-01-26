@@ -1,0 +1,5 @@
+- name: Selenium
+  weight: 5
+
+- name: Allure
+  weight: 4

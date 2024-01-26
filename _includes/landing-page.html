@@ -1,0 +1,75 @@
+<div id="landing">
+  <div class="landing-title">
+    <img src="https://media.giphy.com/media/xTiIzJSKB4l7xTouE8/giphy.gif">
+    <h1>I&#39;m
+      <span class="highlight-title">{{site.username}}</span>,
+    </h1>
+    <h1>
+      <span id="txt-rotate" data-period="1000"
+            data-rotate='["{{site.typing_text}}", "scroll down for more."]'>
+      </span>
+    </h1>
+    <div class="landing-icons">
+
+      {% if site.linkedin_username != null %}
+      <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"
+         rel="noreferrer" href="https://www.linkedin.com/in/{{site.linkedin_username}}">
+        <svg viewBox="0 0 200 200" class="circle">
+          <circle cx="100" cy="100" r="80" />
+        </svg>
+        <div class="social">
+          <svg class="social-svg" viewBox="0 0 48 48">
+            <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ '/assets/img/brands.svg#linkedin-in' | prepend: site.baseurl }}"></use>
+          </svg>
+        </div>
+        <span class="label">LinkedIn</span>
+      </a>
+      {% endif %}
+
+      {% if site.personal_store != null %}
+      <a class="social-link instagram" aria-label="My Store" target="_blank" rel="noreferrer"
+         href="{{site.personal_store}}">
+        <svg viewBox="0 0 200 200" class="circle">
+          <circle cx="100" cy="100" r="80" />
+        </svg>
+        <div class="social">
+          <svg class="social-svg" viewBox="3 5 32 40">
+            <use x="12" y="12" width="24" height="24" xlink:href="{{ '/assets/img/Logo.svg#logo' | prepend: site.baseurl }}"></use>
+          </svg>
+        </div>
+        <span class="label">Store</span>
+      </a>
+      {% endif %}
+
+      {% if site.instagram_username != null %}
+      <a class="social-link instagram" aria-label="My Instagram" target="_blank"
+         rel="noreferrer" href="https://www.instagram.com/{{site.instagram_username}}">
+        <svg viewBox="0 0 200 200" class="circle">
+          <circle cx="100" cy="100" r="80" />
+        </svg>
+        <div class="social">
+          <svg class="social-svg" viewBox="0 0 48 48">
+            <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ '/assets/img/brands.svg#instagram' | prepend: site.baseurl }}"></use>
+          </svg>
+        </div>
+        <span class="label">Instagram</span>
+      </a>
+      {% endif %}
+
+      {% if site.whatsapp_number != null %}
+      <a class="social-link whatsapp" aria-label="My Whatsapp" target="_blank"
+         rel="noreferrer" href="https://wa.me/{{site.whatsapp_number}}">
+        <svg viewBox="0 0 200 200" class="circle">
+          <circle cx="100" cy="100" r="80" />
+        </svg>
+        <div class="social">
+          <svg class="social-svg" viewBox="0 0 48 48">
+            <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ '/assets/img/brands.svg#whatsapp' | prepend: site.baseurl }}"></use>
+          </svg>
+        </div>
+        <span class="label">Whatsapp</span>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>

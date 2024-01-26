@@ -1,0 +1,15 @@
+name: Daily deploy
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  curl-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run curl
+        run: |
+          curl -X POST -H "Authorization: token ${{ secrets.PAGES_ACCESS_TOKEN }}" -H 'Accept: application/vnd.github.ant-man-preview+json' https://api.github.com/repos/Insuetus/Insuetus.github.io/pages/builds
