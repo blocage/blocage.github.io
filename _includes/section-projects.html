@@ -44,7 +44,7 @@
 
   <div class="projects-wrapper">
     {% for repository in filtered_repos %}
-      {% unless site.projects.exclude.projects contains repository.name | downcase %}
+      {% unless site.projects.exclude.projects contains repository.name %}
         <div class="project neumorphism-card" data-aos="zoom-in-down">
           <div class="name-link-wrapper">
             {% if repository.name contains 'github.io' %}

@@ -46,7 +46,7 @@ projects:
     archived: true
     forks: true
     projects:
-      - insuetus
+      - Insuetus
 
 plugins:
   - "jekyll-github-metadata"
