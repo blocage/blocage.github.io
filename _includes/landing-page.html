@@ -56,6 +56,21 @@
       </a>
       {% endif %}
 
+      {% if site.telegram_username != null %}
+      <a class="social-link telegram" aria-label="My Telegram" target="_blank"
+         rel="noreferrer" href="https://telegram.me/{{site.telegram_username}}">
+        <svg viewBox="0 0 200 200" class="circle">
+          <circle cx="100" cy="100" r="80" />
+        </svg>
+        <div class="social">
+          <svg class="social-svg" viewBox="0 0 48 48">
+            <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ '/assets/img/brands.svg#telegram-plane' | prepend: site.baseurl }}"></use>
+          </svg>
+        </div>
+        <span class="label">Telegram</span>
+      </a>
+      {% endif %}
+
       {% if site.whatsapp_number != null %}
       <a class="social-link whatsapp" aria-label="My Whatsapp" target="_blank"
          rel="noreferrer" href="https://wa.me/{{site.whatsapp_number}}">
