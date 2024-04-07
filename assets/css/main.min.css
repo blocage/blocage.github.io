@@ -199,7 +199,7 @@ a:hover{
 }
 .landing-icons .social-link:hover .circle{
     animation:outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,colorBlackIcon 1s linear forwards;
-    fill:#fff;
+    fill:rgb(61, 63, 65);
     fill-opacity:1
 }
 .landing-icons .social-link:hover .social-svg{
