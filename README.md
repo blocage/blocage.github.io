@@ -1,3 +1,3 @@
-[![Website](https://github.com/Insuetus/Insuetus.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Insuetus/Insuetus.github.io/actions/workflows/pages/pages-build-deployment)
+[![Website](https://github.com/blocage/blocage.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/blocage/blocage.github.io/actions/workflows/pages/pages-build-deployment)
 # Personal webpage
-Link: https://Insuetus.github.io
+Link: https://blocage.github.io

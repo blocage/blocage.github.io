@@ -8,9 +8,9 @@ typing_text: Software Engineer / QA Tester
 email: davit.kobalia.1@btu.edu.ge
 telegram_username: in_solitum
 linkedin_username: dkobalia
-github_username: Insuetus
+github_username: blocage
 facebook_username: DaWeedGone
-instagram_username: Insuetus
+instagram_username: insol1tum
 whatsapp_number: 995599014780
 # personal_store: <<my_store>>
 
@@ -35,10 +35,10 @@ show_contact_card: true
 contact_title: Contacts
 contact_description: Feel free to contact me wherever is comfortable for you
 
-repository: Insuetus/Insuetus.github.io
+repository: blocage/blocage.github.io
 github_pages:
   - sorting_algos
-  - Insuetus.github.io
+  - blocage.github.io
   
 projects:
   sort_by: stars
@@ -46,7 +46,7 @@ projects:
     archived: true
     forks: true
     projects:
-      - Insuetus
+      - blocage
 
 plugins:
   - "jekyll-github-metadata"
