@@ -27,7 +27,7 @@
 
 - title: Silknet
   title-url: https://silknet.com/
-  date: Jun 2020 - Sep 2020
+  date: Nov 2019 - Sep 2020
   subtitle: Troubleshooter
   tags:
     - tag: Networking
@@ -35,15 +35,12 @@
     - tag: Zsmart
   timeline-side: left
 
-- title: Silknet
-  title-url: https://silknet.com/
-  date: Nov 2019 - Apr 2020
-  subtitle: Troubleshooter
-  tags:
-    - tag: Networking
-    - tag: Communications
-    - tag: Zsmart
+- title: Università degli Studi di Napoli Federico II
+  title-url: https://www.unina.it/
+  date: Feb 2023 - Oct 2023
+  subtitle: Information Technology
   timeline-side: right
+
 
 - title: Business And Technology University
   title-url: https://btu.edu.ge/
