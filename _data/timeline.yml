@@ -8,6 +8,7 @@
     - tag: Unreal Engine
     - tag: Javascript
     - tag: Amazon Web Services
+    - tag: C#
   timeline-side: left
 
 - title: Exactpro Systems
@@ -23,6 +24,7 @@
     - tag: SQL
     - tag: Jenkins
     - tag: Bitbucket
+    - tag: Golang
   timeline-side: right
 
 - title: Silknet
@@ -38,12 +40,12 @@
 - title: University of Naples Federico II
   title-url: https://www.unina.it/
   date: Feb 2023 - Oct 2023
-  subtitle: Software Engineering
+  subtitle: Computer Software Engineering
   timeline-side: right
 
 
 - title: Business And Technology University
   title-url: https://btu.edu.ge/
   date: 2019 - 2023
-  subtitle: Information Systems and Technologies
+  subtitle: Bachelor of Information Systems and Technologies
   timeline-side: left
